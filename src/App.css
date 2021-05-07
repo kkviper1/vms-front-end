@@ -1,0 +1,76 @@
+.navbar {
+ 
+    
+
+  background-color: #091f1f;
+  
+  
+}
+.color-change {
+  color: rgb(236, 208, 178);
+}
+.navbar-brand {
+  padding: 12px 0px;
+  font-size: 25px;
+ font-weight: bold;
+ margin-left: 2px;
+}
+
+.links {
+  width: 50%;
+  margin: 0 auto;
+}
+.links .mr-auto .nav-link {
+  padding-right: 80px;
+  font-size: 20px;
+  color: #000;
+}
+.logins .nav-link {
+  display: inline;
+  text-decoration: none;
+  color: rgb(252, 249, 249);
+}
+
+.footer {
+  background-color: grey;
+  
+  
+}
+.footer p {
+  margin-top:100px;
+  padding: 13px 0px ;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.text{
+  border: 2px solid orange;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 4px;
+  width: 70%;
+  text-align: center;
+  float: left;
+}
+.button{
+  margin-top: 25px;
+  margin-left: 30px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+    
+.home {
+  text-align: center;
+  background-image: url("http://interrez.com/images/scrollable-background-image.png");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+

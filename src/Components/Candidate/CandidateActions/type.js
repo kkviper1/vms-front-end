@@ -1,0 +1,3 @@
+export const GET_ERROR = "GET_ERROR";
+export const GET_CANDIDATES = "GET_CANDIDATES";
+export const DELETE_CANDIDATE = "DELETE_CANDIDATE";
