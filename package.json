@@ -30,7 +30,6 @@
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-react": "^7.10.1",
-    "babel-loader": "^8.2.2",
     "html-loader": "^1.1.0",
     "webpack-cli": "^3.3.11",
     "webpack-war-plugin": "^1.0.0-beta.3"
