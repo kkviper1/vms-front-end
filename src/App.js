@@ -33,7 +33,7 @@ function App() {
         <Route path = "/voting/results" exact component = {ListResultComponent}></Route>
         <Route path = "/voting" exact component = {ListVotingsession}></Route>
 
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/Home" component={Home}/>
         <Route exact path="/register" component={RegisterDash}/>
         <Route exact path="/candidate/dashboard" component={DashComponent}/>
         <Route exact path="/dashboard" component={DashboardComponent}/>
