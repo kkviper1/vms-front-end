@@ -29,24 +29,24 @@ function App() {
       <HeaderComponent />
         <Switch>
         
-        <Route path = "vms-front/login" exact component = {Login}></Route>
-        <Route path = "vms-front/voting/results" exact component = {ListResultComponent}></Route>
-        <Route path = "vms-front/voting" exact component = {ListVotingsession}></Route>
+        <Route path = "/vms-front/login" exact component = {Login}></Route>
+        <Route path = "/vms-front/voting/results" exact component = {ListResultComponent}></Route>
+        <Route path = "/vms-front/voting" exact component = {ListVotingsession}></Route>
 
-        <Route exact path="vms-front/" component={Home}/>
-        <Route exact path="vms-front/register" component={RegisterDash}/>
-        <Route exact path="vms-front/candidate/dashboard" component={DashComponent}/>
-        <Route exact path="vms-front/dashboard" component={DashboardComponent}/>
-          <Route exact path="vms-front/addCandidate" component={AddCandidate}/>
-          <Route exact path="vms-front/getCandidate" component={GetCandidate}/>
-          <Route exact path="vms-front/getVoters" component={ViewVoters}/>
-          <Route exact path="vms-front/deleteCandidate" component={DeleteCandidate}/>
+        <Route exact path="/vms-front/" component={Home}/>
+        <Route exact path="/vms-front/register" component={RegisterDash}/>
+        <Route exact path="/vms-front/candidate/dashboard" component={DashComponent}/>
+        <Route exact path="/vms-front/dashboard" component={DashboardComponent}/>
+          <Route exact path="/vms-front/addCandidate" component={AddCandidate}/>
+          <Route exact path="/vms-front/getCandidate" component={GetCandidate}/>
+          <Route exact path="/vms-front/getVoters" component={ViewVoters}/>
+          <Route exact path="/vms-front/deleteCandidate" component={DeleteCandidate}/>
 
 
 
-          <Route path="vms-front/registerVoter" component={Register}/>
-        <Route path="vms-front/regcnd" component={Regster}/>
-        <Route path="vms-front/voter/dashboard" component={VoterDashComponent}/>
+          <Route path="/vms-front/registerVoter" component={Register}/>
+        <Route path="/vms-front/regcnd" component={Regster}/>
+        <Route path="/vms-front/voter/dashboard" component={VoterDashComponent}/>
         </Switch>
         <FooterComponent />
 			</div>
