@@ -16,8 +16,8 @@ class HeaderComponent extends React.Component {
             </Nav>
             </div> */}
             <div class="logins">
-              <Nav.Link href="/login">Sign-In</Nav.Link>
-              <Nav.Link href="/registerVoter">Sign-Up</Nav.Link>
+              <Nav.Link href="/vms-front/login">Sign-In</Nav.Link>
+              <Nav.Link href="/vms-front/registerVoter">Sign-Up</Nav.Link>
             </div>
           </Navbar.Collapse>
           <br/>
